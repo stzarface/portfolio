@@ -1,0 +1,369 @@
+
+*	{
+	font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
+}
+
+/*.navbar-inverse	{
+	background-color: transparent;
+}*/
+
+/*#mojnavbar .nav.navbar-nav .active	{
+	background-color: transparent;
+}*/
+
+.navbar-static-top	{
+	background-color: transparent;
+	border-bottom: none;
+
+}
+
+section.nav_container	{
+	
+	height: 100vh;
+	/*background-image: url("../images/back.jpeg");*/
+	background:  
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.1)
+    ), url("../images/back.jpeg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	filter: grayscale(70%);
+	filter: sepia(50%);
+
+
+	
+}
+
+.title {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+  text-align: center;
+}
+
+
+.title h1 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 4rem;
+  font-weight: 900;
+  font-style: italic;
+/*  white-space: nowrap;*/
+}
+
+
+
+#mojnavbar a	{
+	font-weight: 900;
+	font-size: 27px;
+	color: rgba(0, 0, 0, 0.8);
+	/*color: rgba(255, 255, 255, 0.8);*/
+	
+	/*color: rgba(33, 37, 43, 0.8);*/
+	/*color: rgb(1, 26, 66, 0.9);*/
+}
+
+img	{
+	width: 100%;
+	max-width: 1350px;
+	height: auto;
+}
+.logo	{
+	width: 40px;
+	height: 40px;
+}
+
+a.navbar-brand	{
+	padding: 3px 0;
+}
+
+.nav_container	{
+	position: relative;
+	width: 100%;
+}
+
+
+
+/*02. section*/
+
+section	{
+	height: 100%; 
+	border-bottom: 15px solid rgba(0, 0, 0, 0.7);
+	background-color: rgba(86, 99, 117, 0.2);
+}
+
+.main_container	{
+	width: 70%;
+	height: auto;
+
+	margin: 0 auto;
+	background-color: whitesmoke;
+	
+}
+
+section.about	{
+	height: 100vh;
+}
+
+
+section.about .main_container	{
+	display: flex;
+	flex-wrap: wrap;
+/*	height: 700px;*/
+	
+}
+
+.about_srp, .about_eng	{
+	max-width: 50%;
+	
+	padding: 0 50px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	
+
+}
+
+.about_srp h2, .about_eng h2	{
+	padding-bottom: 20px;
+}
+
+
+
+.about_srp	{
+	border-right: 3px solid black;
+	text-align: right;
+}
+
+.about_eng	{
+	text-align: left;
+}
+
+section.skills	{
+	height: 100vh;
+}
+
+
+.skills .main_container	{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 50px 20px;
+	
+}
+
+.info, .skills_info	{
+	max-width: 50%;
+	width: 800px;
+	justify-content: center;
+	padding-top: 30px;
+	padding: 0 10px;
+}
+
+
+
+.my_image	img	{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	
+	 margin-top: 30px;
+	 margin-bottom: 50px;
+
+}
+
+
+
+.progres_bar	{
+	width: 100%;
+	background-color: white;
+	height: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.progres	{
+	background-color: rgb(19, 137, 15, 0.9);
+	color: white;
+
+	
+	
+	text-align: center;
+}
+
+
+.progres_bar .html	{
+	width: 50%;
+}
+.progres_bar .css	{
+	width: 30%;
+}
+
+.progres_bar .javascript	{
+	width: 10%;
+}
+.progres_bar .jguery	{
+	width: 10%;
+}
+
+.progres_bar .git	{
+	width: 10%;
+}
+.progres_bar .wordpress	{
+	width: 10%;
+}
+
+
+
+
+.section_header 	{
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 0;
+	max-width: 100%;
+	background-color: black;
+}
+
+
+.section_header  h2	{
+	color: whitesmoke;
+	margin: 0;
+	padding: 20px 0;
+}
+
+.allowed_me	{
+	max-width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 25px;
+	font-weight: bold;
+	font-style: italic;
+	padding: 25px 0;
+}
+
+section.work	{
+	
+	height: 100%;
+	
+	
+}
+
+section.work .main_container	{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 80%;
+	background-color: transparent;
+	padding-bottom: 30px;
+}
+
+section.work .main_container .item	{
+	width: 300px;
+	height: auto;
+	box-shadow: -2px -2px 8px 3px rgba(0, 0, 0, 0.2);
+
+	border-radius: 5px 5px 0 0;
+	padding: 10px;
+	margin: 10px;
+	background-color: whitesmoke;
+}
+section.work .main_container .item p	{
+	padding: 10px;
+}
+section.work .main_container .item h3	{
+	text-align: center;
+}
+
+
+section.quote	{
+	background: url(../images/bg-pattern.jpg) no-repeat;
+	background-size: cover;
+	height: 350px;
+}
+
+.quotetext	{
+	width: 60%;
+	margin: 0 auto;
+
+	text-align: center;
+	text-transform: uppercase;
+	font-family:  'Gloria Hallelujah', cursive;
+	font-weight: bolder;
+	font-style: italic;
+	font-size: 33px;
+	color: whitesmoke;
+	padding-top: 10%;
+	
+
+}
+
+/*.quotetext	p	{
+	text-align: center;
+	text-transform: uppercase;
+	font-family:  'Gloria Hallelujah', cursive;
+	font-weight: bolder;
+	font-style: italic;
+	font-size: 33px;
+	color: whitesmoke;
+	padding-top: 15%;
+}*/
+
+
+.paralax	{
+	background-image: url(../images/pexels-photo-279315.jpeg);
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 400px;
+	background-attachment: fixed;
+	opacity: 0.9;
+}
+
+.ptext	{
+	position: absolute;
+	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	color: whitesmoke;
+  	text-align: center;
+}
+
+.border	{
+	background-color: black;
+	padding: 20px;
+}
+
+
+
+/*footer*/
+
+
+footer	{
+	background-color: gray;
+	height: 100px;
+}
+
+
+
+footer .foot	{
+	margin: 0 auto;
+	max-width: 50%;
+	padding-top: 2%;
+
+}
+
+footer .foot p	{
+	font-size: 13px;
+	text-align: center;
+	color: rgba(0,0,0,0.7);
+}
+
+footer .foot .copyright	{
+	margin-bottom: 0;
+}
